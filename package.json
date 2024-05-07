@@ -1,0 +1,17 @@
+{
+  "name": "cypress-lighthouse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --browser chrome --spec 'cypress/e2e/google.spec.cy.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cypress-audit/lighthouse": "^1.4.2",
+    "@cypress-audit/pa11y": "^1.4.2",
+    "cypress": "^13.8.1"
+  }
+}
